@@ -4,7 +4,7 @@ import Character from './components/character';
 import Stats from './components/stats';
 import Inspiration from './components/inspiration';
 import Proficiency from './components/proficiency';
-import data from './m-chee-daro.json';
+import data from './character.json';
 import Grid from '@material-ui/core/Grid';
 import Abilities from './components/abilities';
 import Physical from './components/physical';
