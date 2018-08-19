@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.character-label{
+  margin-left:5em;
+  margin-right:5em;
+}
+
+.character-label {
+  font-size:0.7em;
+  border-top:1px dotted black;
+}
+
+.stat-value{
+  font-size:1.8em;
+}
+
+.stat-label{
+  border-top:1px dotted black;
+  font-size:0.8em;
+}
+
+.character-name{
+  height:68px;
+}
+
+.stats-container{
+  font-size:1.1em;
+}
+
+.stat-container{
+  padding: 0em 1em 0em 1em;
+}
+
+.inspiration-value, .proficiencybonus-value{
+  margin-right:1em;
+  font-size:1.2em;
+}
+
+.inspiration-label, .proficiencybonus-label{
+  font-size:0.8em;
+}
+
+.inspiration-container, 
+.proficiencybonus-container, 
+.abilities-container,
+.equipment-container{
+  text-align:left;
+}
+
+.proficiencyType{
+  font-weight:bold;
+}
+
+.proficiency-label{
+  float:left;
+  width:3em;
+}
+
+.ability-item{
+  padding-left:2em;
+}
+
+.abilities-container ul{
+  margin:0 0 0 0;
+}
+
+.abilities-container h4{
+  margin: 0 0 0 0;
+}
+
+.proficient{
+  font-weight:bold;
+}
+
+.proficiencyName.expert{
+  text-decoration: underline;
+}
+
+.proficiencyName.proficient{
+  font-weight:bold;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.climbing-speed{
+  font-size:0.5em;
+}
+
+h4{
+  margin-bottom:0px;
+}
+
+ul{
+  margin-top:0px;
+}
+
+h3{
+  margin-top:0px;
+}
